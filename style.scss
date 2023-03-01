@@ -1,0 +1,33 @@
+html{
+    font-family:sans-serif ;
+    transition: 0.5s ease-in;
+    color: #00cba9;
+    text-transform: uppercase;
+}
+body{
+    background-repeat: no-repeat;
+    // background-position: c;
+    background-size: cover;
+    height: 100vh;
+}
+.occ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    ul{
+        list-style: none;
+        li{
+            color: #f5f5f5;
+        }
+    }
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cont2{
+    font-family: radioland;
+    font-size: 30px;
+}
