@@ -68,8 +68,6 @@ if(date("d-m") == "25-Dec"){
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- meta tag to reload the website every 1s so aS get the life feed from the clock instead of a stagnant one. this is the best way ive found container
-might change in tghe future anticipate -->
   <meta http-equiv="refresh" content="1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/clock2.png" type="image/x-icon">
@@ -104,10 +102,5 @@ might change in tghe future anticipate -->
   <?=$geek?>
   </div>
   </div>
-<!-- will add the alarm system soon ==  cancelled -->
-<!--
-due to meta tag whic reloads the page every 1s the alarm hasn't been able to work as proposed
-the alarm will work as thus ; if isset a particular time echo auto play attribute to the audio tag . sounds simple sha ,maybe tomorrow God abeg -->
-<!-- check in day 2 about to add the alarm -->
 </body>
 </html>echo 'god abeg';

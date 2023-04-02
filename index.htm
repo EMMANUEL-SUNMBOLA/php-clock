@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP Clock</title>
+	<script type="text/javascript">
+		function updateTime() {
+			var currentTime = new Date();
+			var hours = currentTime.getHours();
+			var minutes = currentTime.getMinutes();
+			var seconds = currentTime.getSeconds();
+			document.getElementById('clock').innerHTML = hours + ":" + minutes + ":" + seconds;
+			setTimeout(updateTime, 1000);
+		}
+	</script>
+</head>
+<body onload="updateTime()">
+	<h1>PHP Clock</h1>
+	<div id="clock"></div>
+</body>
+</html>
